@@ -1,0 +1,18 @@
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MegamanCheat.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MegamanCheat.Properties.Resources.resources
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MegamanCheat.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\MegamanCheat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\MegamanCheat\bin\Debug\Megaman Cheat.exe.config
+C:\Users\PC\Desktop\MegamanCheat\bin\Debug\Megaman Cheat.exe
+C:\Users\PC\Desktop\MegamanCheat\bin\Debug\Megaman Cheat.pdb
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\Megaman Cheat_MarkupCompile.cache
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\Megaman Cheat_MarkupCompile.lref
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\Megaman Cheat.g.resources
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\Megaman Cheat.exe
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\Megaman Cheat.pdb
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\App.baml
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\ResourceXAML\BaseResource.baml
+C:\Users\PC\Desktop\MegamanCheat\obj\Debug\ResourceXAML\TriggerResource.baml

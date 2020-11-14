@@ -1,0 +1,265 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:MegamanCheat.ResourceXAML">
+
+	<KeyTime x:Key="frame0">0:0:0.1</KeyTime>
+	<KeyTime x:Key="frame1">0:0:0.2</KeyTime>
+	<KeyTime x:Key="frame2">0:0:0.3</KeyTime>
+	<KeyTime x:Key="frame3">0:0:0.4</KeyTime>
+	<KeyTime x:Key="frame4">0:0:0.5</KeyTime>
+	<KeyTime x:Key="frame5">0:0:0.6</KeyTime>
+	<KeyTime x:Key="frame6">0:0:0.7</KeyTime>
+	<KeyTime x:Key="frame7">0:0:0.8</KeyTime>
+	<KeyTime x:Key="frame8">0:0:0.9</KeyTime>
+	<KeyTime x:Key="frame9">0:0:1</KeyTime>
+	<KeyTime x:Key="frame10">0:0:1.1</KeyTime>
+	<KeyTime x:Key="frame11">0:0:1.2</KeyTime>
+	<KeyTime x:Key="frame12">0:0:1.3</KeyTime>
+	<KeyTime x:Key="frame13">0:0:1.4</KeyTime>
+	<KeyTime x:Key="frame14">0:0:1.5</KeyTime>
+	<KeyTime x:Key="frame15">0:0:1.6</KeyTime>
+	<KeyTime x:Key="frame16">0:0:1.7</KeyTime>
+	<KeyTime x:Key="frame2s">0:0:2</KeyTime>
+
+	<Storyboard x:Key="createStory" Storyboard.TargetProperty="(TextBlock.Text)">
+		<StringAnimationUsingKeyFrames RepeatBehavior="Forever">
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame0}" Value="C" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame1}" Value="Cr" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2}" Value="Cre" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame3}" Value="Cre" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame4}" Value="Crea" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame6}" Value="Creat" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame7}" Value="Create" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame8}" Value="Create " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame9}" Value="Create b" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame10}" Value="Create by" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame11}" Value="Create by " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame12}" Value="Create by M" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame13}" Value="Create by Me" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2s}" Value="Create by Me" />
+		</StringAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="oneHitStoryBoard" Storyboard.TargetProperty="(TextBlock.Text)">
+		<StringAnimationUsingKeyFrames>
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame0}" Value="O" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame1}" Value="ON" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2}" Value="ONE" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame3}" Value="ONE " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame4}" Value="ONE H" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame6}" Value="ONE HI" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame7}" Value="ONE HIT" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame8}" Value="ONE HIT " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame9}" Value="ONE HIT C" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame10}" Value="ONE HIT CR" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame11}" Value="ONE HIT CRE" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame12}" Value="ONE HIT CREE" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame13}" Value="ONE HIT CREEP" />
+		</StringAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="fullLifeStoryBoard" Storyboard.TargetProperty="(TextBlock.Text)">
+		<StringAnimationUsingKeyFrames>
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame0}" Value="F" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame1}" Value="FU" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2}" Value="FUL" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame3}" Value="FULL" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame4}" Value="FULL " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame6}" Value="FULL L" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame7}" Value="FULL LI" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame8}" Value="FULL LIF" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame9}" Value="FULL LIFE" />
+		</StringAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="fullLifeImageStoryBoard" Storyboard.TargetProperty="(Image.Source)">
+		<ObjectAnimationUsingKeyFrames>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame0}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/40%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame1}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/50%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame2}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/60%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame3}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/70%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame4}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/80%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame5}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/90%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame6}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/100%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+		</ObjectAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="fullLifeImageEndStoryBoard" Storyboard.TargetProperty="(Image.Source)">
+		<ObjectAnimationUsingKeyFrames>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame7}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/0%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame6}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/40%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame5}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/50%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame4}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/60%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame3}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/70%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame2}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/80%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame1}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/FullLife/90%-FullLife-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+		</ObjectAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="oneHitBossStoryBoard" Storyboard.TargetProperty="(TextBlock.Text)">
+		<StringAnimationUsingKeyFrames>
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame0}" Value="O" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame1}" Value="ON" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2}" Value="ONE" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame3}" Value="ONE " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame4}" Value="ONE H" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame6}" Value="ONE HI" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame7}" Value="ONE HIT" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame8}" Value="ONE HIT " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame9}" Value="ONE HIT B" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame10}" Value="ONE HIT BO" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame11}" Value="ONE HIT BOS" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame12}" Value="ONE HIT BOSS" />
+		</StringAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="immortalStoryBoard" Storyboard.TargetProperty="(TextBlock.Text)">
+		<StringAnimationUsingKeyFrames>
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame0}" Value="I" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame1}" Value="IM" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame2}" Value="IMM" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame3}" Value="IMMO " />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame4}" Value="IMMOR" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame6}" Value="IMMORT" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame7}" Value="IMMORTA" />
+			<DiscreteStringKeyFrame KeyTime="{StaticResource frame8}" Value="IMMORTAL" />
+		</StringAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="immortalImageStoryBoard" Storyboard.TargetProperty="(Image.Source)">
+		<ObjectAnimationUsingKeyFrames>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame0}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/10%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame1}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/20%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame2}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/30%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame3}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/40%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame4}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/50%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame5}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/60%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame6}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/70%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+		</ObjectAnimationUsingKeyFrames>
+	</Storyboard>
+
+	<Storyboard x:Key="immortalImageEndStoryBoard" Storyboard.TargetProperty="(Image.Source)">
+		<ObjectAnimationUsingKeyFrames>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame6}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/0%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame5}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/10%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame4}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/20%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame3}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/30%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame2}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/40%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame1}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/50%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+			<DiscreteObjectKeyFrame KeyTime="{StaticResource frame0}">
+				<DiscreteObjectKeyFrame.Value>
+					<BitmapImage UriSource="../Images/Imotal/60%-imotal-kteam.png" />
+				</DiscreteObjectKeyFrame.Value>
+			</DiscreteObjectKeyFrame>
+		</ObjectAnimationUsingKeyFrames>
+	</Storyboard>
+</ResourceDictionary>
